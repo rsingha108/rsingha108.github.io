@@ -32,7 +32,7 @@ Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese
 Automated testing of BGP Implementations such as Quagga, FRR, GoBGP, Batfish, by generating high coverage tests using symbolic execution and enumerative testing. Solved BGP-specific challenges due to statefulness, regular expressions, and incremental updates. Our tool found 22 bugs across 5 BGP implementations.
 
 
-6. [TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer [Published at EMNLP 2022]](https://arxiv.org/pdf/2210.11753.pdf){
+6. [TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer [Published at EMNLP 2022]](https://arxiv.org/pdf/2210.11753.pdf)
 Mentors: Laxmidhar Behera, Pawan Goyal, IIT Kanpur
 Developed a novel Sanskrit word segmentation model combining character-level input with latent word information and an ensemble-based constrained inference algorithm, achieving 1.8-point F-score and 7.2-point PM gains over SOTA.
 
