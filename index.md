@@ -27,15 +27,15 @@ Mentors: Behnaz Arzani, Ryan Beckett, Nikolaj Bjorner, Siva Kakarla
 Developed a static analysis tool for Azure RBAC to verify policies, detect duplicates, and generate exhaustive tests for Azure Implementations. We reduced the verification time for large policies from 30 minutes to 0.16s using various optimization algorithms. We also found 5 discrepancies across C\# and C++ implementations of Azure RBAC.
 
 
-\cvitem{April'22-June'23}{\textbf{MESSI: Behavioral Testing of BGP Implementations [NSDI 2024, Presented paper] \href{https://www.usenix.org/system/files/nsdi24-singha.pdf}{[\textcolor{blue}{Link}]}}\newline
-[\textit{Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese}] \newline 
+5. [MESSI: Behavioral Testing of BGP Implementations [NSDI 2024, Presented paper]](https://www.usenix.org/system/files/nsdi24-singha.pdf)
+Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese 
 Automated testing of BGP Implementations such as Quagga, FRR, GoBGP, Batfish, by generating high coverage tests using symbolic execution and enumerative testing. Solved BGP-specific challenges due to statefulness, regular expressions, and incremental updates. Our tool found 22 bugs across 5 BGP implementations.
-}
 
-\cvitem{April'21-Sep'21}{\textbf{TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer \newline [Published at EMNLP 2022] \href{https://arxiv.org/pdf/2210.11753.pdf}{[\textcolor{blue}{Link}]}}\newline
-[\textit{Mentors: Laxmidhar Behera, Pawan Goyal, IIT Kanpur}] \newline 
+
+6. [TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer [Published at EMNLP 2022]](https://arxiv.org/pdf/2210.11753.pdf){
+Mentors: Laxmidhar Behera, Pawan Goyal, IIT Kanpur
 Developed a novel Sanskrit word segmentation model combining character-level input with latent word information and an ensemble-based constrained inference algorithm, achieving 1.8-point F-score and 7.2-point PM gains over SOTA.
-}
+
 
 
 
