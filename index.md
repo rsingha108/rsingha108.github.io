@@ -43,7 +43,7 @@ Implemented a novel algorithm in MsQuic to dynamically expedite mission-critical
 
 * **DAAD-WISE 2020 : Semantic Frame Identification**  
 (Mentor: Chris Biemann, University of Hamburg)   
-Enhanced semantic frame disambiguation using a fine-tuned BERT model, achieving a 1.2-point F-score improvement over SOTA on FrameNet data.}
+Enhanced semantic frame disambiguation using a fine-tuned BERT model, achieving a 1.2-point F-score improvement over SOTA on FrameNet data.
 
 
 
