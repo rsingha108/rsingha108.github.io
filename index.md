@@ -1,3 +1,6 @@
+
+
+
 ## About
 
 I am a third‑year PhD student co‑advised by Todd Millstein and George Varghese with research interests in 
@@ -30,12 +33,12 @@ Created a LLM-based tool to automatically generate models for network protocols 
 
 ## Internships
 
-* Microsoft Research Internship: Generating Models from Specifications using LLMs
+* Microsoft Research Internship 2024: Generating Models from Specifications using LLMs
 Mentor: Akash Lal 
-Developed a tool (MockGen) using an LLM to generate models (called mock implementations) as well as high-coverage test cases from OpenAPI specifications for Azure services such as DNS and BlockBlob. Unlike AutoMessi which uses symbolic execution, I used the LLM to {\em directly} generate tests and {\em fed back} the test results to the LLM to improve the mock. This achieved a mock accuracy of 95\% relative to manually written mocks.
+Developed a tool (MockGen) using an LLM to generate models (called mock implementations) as well as high-coverage test cases from OpenAPI specifications for Azure services such as DNS and BlockBlob. Unlike AutoMessi which uses symbolic execution, I used the LLM to directly generate tests and fed back the test results to the LLM to improve the mock. This achieved a mock accuracy of 95% relative to manually written mocks.
 
 
-* Microsoft Research Internship: Securing Azure RBAC with Static Analysis [Applied for Patent]
+* Microsoft Research Internship 2023: Securing Azure RBAC with Static Analysis [Applied for Patent]
 Mentors: Behnaz Arzani, Ryan Beckett, Nikolaj Bjorner, Siva Kakarla
 Developed a static analysis tool for Azure RBAC to verify policies, detect duplicates, and generate exhaustive tests for Azure Implementations. We reduced the verification time for large policies from 30 minutes to 0.16s using various optimization algorithms. We also found 5 discrepancies across C\# and C++ implementations of Azure RBAC.
 
