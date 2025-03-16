@@ -1,11 +1,13 @@
+## About
+
 I am a third‑year PhD student co‑advised by Todd Millstein and George Varghese with research interests in 
 computer networks and systems, formal verification, and building LLM-based pipelines.   More specifically, 
 I work on synthesizing verifiably correct implementations using new modularity techniques, and testing network 
 implementations using generative AI and symbolic execution. 
 
-##Publications
+## Publications
 
-1. Eywa: Automating Model Based Testing using LLMs [Submitted to SIGCOMM'25] \href{https://drive.google.com/file/d/1Qme1n7HAnF8ndsiEBORygyUZbRgRp-iD/view?usp=sharing}{[\textcolor{blue}{Link}]}} \newline
+1. [Eywa: Automating Model Based Testing using LLMs [Submitted to SIGCOMM'25]](https://drive.google.com/file/d/1Qme1n7HAnF8ndsiEBORygyUZbRgRp-iD/view?usp=sharing) 
 {Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese}
 Created a LLM-based tool to automatically generate models for network protocols like DNS and BGP; surprisingly, LLM errors enrich the test suite rather than affect coverage. We found 15 new bugs in 10 DNS implementations and 4 new bugs in 3 BGP implementations. 
 }
