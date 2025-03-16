@@ -1,4 +1,3 @@
-<img src="images/rathin.jpg" alt="Rathin Singha" width="100">
 
 ## About
 
