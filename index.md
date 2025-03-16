@@ -1,4 +1,4 @@
-<img src="images/rathin.jpg" alt="" width="100">
+<img src="images/rathin.jpg" alt="Rathin Singha" width="100">
 
 ## About
 
