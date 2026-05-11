@@ -12,7 +12,7 @@ implementations using generative AI and symbolic execution.
 (Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese)
 Built an LLM-driven extremal testing framework that extracts validity constraints from RFCs and systematically generates boundary-case inputs for protocols such as HTTP, DNS, BGP, SMTP, and QUIC. Using differential testing across implementations, CornerCase uncovered 42 anomalies, including critical bugs such as redirect loops triggered by encoded null bytes in the h2o HTTP server; 26 issues have already been acknowledged and 18 fixed.
 
-* Eywa: Automating Model Based Testing using LLMs [Published at NSDI 2026 [[paper](https://www.usenix.org/conference/nsdi26/presentation/mondal)] [[code](https://github.com/microsoft/Model_Based_Testing_Using_LLMs)]  
+* Eywa: Automating Model Based Testing using LLMs [Published at NSDI 2026] [[paper](https://www.usenix.org/conference/nsdi26/presentation/mondal)] [[code](https://github.com/microsoft/Model_Based_Testing_Using_LLMs)]  
 (Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese)  
 Created a LLM-based tool to automatically generate models for network protocols like DNS and BGP; surprisingly, LLM errors enrich the test suite rather than affect coverage. Eywa found 33 unique bugs across widely used DNS, BGP, and SMTP implementations, 16 of which were previously undiscovered despite extensive prior testing with manually crafted models.
 
