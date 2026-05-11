@@ -12,19 +12,19 @@ implementations using generative AI and symbolic execution.
 (Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese)
 Built an LLM-driven extremal testing framework that extracts validity constraints from RFCs and systematically generates boundary-case inputs for protocols such as HTTP, DNS, BGP, SMTP, and QUIC. Using differential testing across implementations, CornerCase uncovered 42 anomalies, including critical bugs such as redirect loops triggered by encoded null bytes in the h2o HTTP server; 26 issues have already been acknowledged and 18 fixed.
 
-* Eywa: Automating Model Based Testing using LLMs [Published at NSDI 2026 [paper](https://www.usenix.org/conference/nsdi26/presentation/mondal) [code](https://github.com/microsoft/Model_Based_Testing_Using_LLMs)  
+* Eywa: Automating Model Based Testing using LLMs [Published at NSDI 2026 [[paper](https://www.usenix.org/conference/nsdi26/presentation/mondal)] [[code](https://github.com/microsoft/Model_Based_Testing_Using_LLMs)]  
 (Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese)  
 Created a LLM-based tool to automatically generate models for network protocols like DNS and BGP; surprisingly, LLM errors enrich the test suite rather than affect coverage. Eywa found 33 unique bugs across widely used DNS, BGP, and SMTP implementations, 16 of which were previously undiscovered despite extensive prior testing with manually crafted models.
 
-* If Layering is useful, why not sublayering? [Published at HotNets 2024] [paper](https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-309.pdf)  
+* If Layering is useful, why not sublayering? [Published at HotNets 2024] [[paper](https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-309.pdf)]  
 (Mentors: Todd Millstein, Scott Shenker, George Varghese)  
 Proposed recursively breaking up monolithic layers into simpler sublayers for ease of verification, debugging and principled hardware offload.  Proposed a new sublayering for TCP and showed sublayering could simplify verification for HDLC bit-stuffing using CoQ.
 
-* [MESSI: Behavioral Testing of BGP Implementations [Published at NSDI 2024]][paper](https://www.usenix.org/system/files/nsdi24-singha.pdf) [code](https://github.com/rsingha108/MESSI)  
+* MESSI: Behavioral Testing of BGP Implementations [Published at NSDI 2024] [[paper](https://www.usenix.org/system/files/nsdi24-singha.pdf)] [[code](https://github.com/rsingha108/MESSI)]  
 (Mentors: Ryan Beckett, Siva Kakarla, Todd Millstein, George Varghese)  
 Automated testing of BGP Implementations such as Quagga, FRR, GoBGP, Batfish, by generating high coverage tests using symbolic execution and enumerative testing. Solved BGP-specific challenges due to statefulness, regular expressions, and incremental updates. Our tool found 22 bugs across 5 BGP implementations.
 
-* TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer [Published at EMNLP 2022] [paper](https://arxiv.org/pdf/2210.11753.pdf) [code](https://github.com/rsingha108/TransLIST)  
+* TransLIST : A Transformer-Based Linguistically Informed Sanskrit Tokenizer [Published at EMNLP 2022] [[paper](https://arxiv.org/pdf/2210.11753.pdf)] [[code](https://github.com/rsingha108/TransLIST)]  
 (Mentors: Laxmidhar Behera, Pawan Goyal, IIT Kanpur)  
 Developed a novel Sanskrit word segmentation model combining character-level input with latent word information and an ensemble-based constrained inference algorithm, achieving 1.8-point F-score and 7.2-point PM gains over SOTA.
 
