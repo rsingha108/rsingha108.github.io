@@ -1,0 +1,45 @@
+# Publications, newest first.
+# Use <b>Rathin Singha</b> to bold your name. Add `note` for things like joint first authorship.
+- title: "Eywa: Automating Model-Based Testing using LLMs"
+  authors: "Rajdeep Mondal*, <b>Rathin Singha</b>*, Todd Millstein, Ryan Beckett, Siva Kesava Reddy Kakarla, George Varghese"
+  venue: "USENIX NSDI 2026"
+  tag: "NSDI'26"
+  note: "* Joint first authors"
+  summary: "LLMs automatically generate protocol models for DNS and BGP; surprisingly, LLM errors enrich the test suite rather than hurt coverage. Found 15 new bugs in 10 DNS implementations and 4 new bugs in 3 BGP implementations."
+  links:
+    - { name: "paper", url: "https://www.usenix.org/conference/nsdi26/presentation/mondal" }
+    - { name: "code", url: "https://github.com/microsoft/Model_Based_Testing_Using_LLMs" }
+
+- title: "CornerCase: Automated Extremal Testing of Protocol Implementations using LLMs"
+  authors: "<b>Rathin Singha</b>, Kuan Qian, Srinath Saikrishnan, Tracy Zhao, Soheil Abbasloo, Ryan Beckett, Siva Kesava Reddy Kakarla, Todd Millstein, George Varghese"
+  venue: "arXiv:2606.29124, 2026"
+  tag: "arXiv'26"
+  summary: "Reads RFCs, extracts validity constraints, and generates boundary-focused test suites for DNS, BGP, SMTP, HTTP, QUIC, and shortest-path libraries. Differential testing has revealed numerous semantic inconsistencies and previously unknown bugs."
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2606.29124" }
+
+- title: "If Layering is useful, why not Sublayering?"
+  authors: "<b>Rathin Singha</b>, Rishabh Iyer, Charles Liu, Caleb Terrill, Todd Millstein, Scott Shenker, George Varghese"
+  venue: "ACM HotNets 2024"
+  tag: "HotNets'24"
+  summary: "Proposes recursively splitting monolithic layers into simpler sublayers for easier verification, debugging, and principled hardware offload, with a new sublayering for TCP and a Coq verification of HDLC bit-stuffing."
+  links:
+    - { name: "paper", url: "https://conferences.sigcomm.org/hotnets/2024/papers/hotnets24-309.pdf" }
+
+- title: "MESSI: Behavioral Testing of BGP Implementations"
+  authors: "<b>Rathin Singha</b>, Rajdeep Mondal, Ryan Beckett, Siva Kesava Reddy Kakarla, Todd Millstein, George Varghese"
+  venue: "USENIX NSDI 2024"
+  tag: "NSDI'24"
+  summary: "High-coverage test generation for BGP implementations (Quagga, FRR, GoBGP, Batfish) using symbolic execution and enumerative testing, handling statefulness, regular expressions, and incremental updates. Found 22 bugs across 5 implementations."
+  links:
+    - { name: "paper", url: "https://www.usenix.org/system/files/nsdi24-singha.pdf" }
+    - { name: "code", url: "https://github.com/rsingha108/MESSI" }
+
+- title: "TransLIST: A Transformer-Based Linguistically Informed Sanskrit Tokenizer"
+  authors: "Jivnesh Sandhan, <b>Rathin Singha</b>, Narein Rao, Suvendu Samanta, Laxmidhar Behera, Pawan Goyal"
+  venue: "Findings of EMNLP 2022"
+  tag: "EMNLP'22"
+  summary: "Sanskrit word segmentation combining character-level input with latent word information and constrained inference; +1.8 F-score and +7.2 PM over the prior state of the art."
+  links:
+    - { name: "paper", url: "https://arxiv.org/pdf/2210.11753.pdf" }
+    - { name: "code", url: "https://github.com/rsingha108/TransLIST" }

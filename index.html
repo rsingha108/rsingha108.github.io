@@ -1,0 +1,90 @@
+---
+layout: default
+---
+<section id="about">
+  <h2>About</h2>
+  <p>I am a fifth-year PhD student in Computer Science at UCLA, co-advised by
+  <a href="https://web.cs.ucla.edu/~todd/">Todd Millstein</a> and
+  <a href="https://web.cs.ucla.edu/~varghese/">George Varghese</a>.
+  I work on making network software and configurations correct: fast what-if analysis of configuration
+  changes and failures (incremental control-plane simulation in Batfish), testing protocol implementations
+  with generative AI and symbolic execution, and synthesizing verifiably correct, robust implementations using
+  modularity. Along the way I build agentic, multi-agent LLM pipelines that do this work automatically.</p>
+  <p>My tools have found dozens of previously unknown bugs in widely used DNS, BGP, and other protocol
+  implementations. I have interned at Microsoft Research (Redmond, twice, and Bangalore) and Intel.</p>
+
+  <ul class="interests">
+    <li>Network verification</li>
+    <li>Protocol testing</li>
+    <li>Control-plane simulation</li>
+    <li>Symbolic execution</li>
+    <li>LLM agents for systems</li>
+  </ul>
+
+  <p class="callout"><strong>I am on the job market.</strong> I graduate in Spring 2027 and am looking for full-time
+  research scientist roles. Feel free to <a href="mailto:{{ site.email }}">get in touch</a>.</p>
+</section>
+
+<section id="research">
+  <h2>Current Research</h2>
+  {% for p in site.data.research %}
+  <div class="entry">
+    <div class="entry-head">
+      <p class="entry-title">{{ p.title }}</p>
+      <span class="dates">{{ p.dates }}</span>
+    </div>
+    <p class="meta">{% if p.status %}<span class="badge">{{ p.status }}</span>{% endif %}Mentor{% if p.mentors contains "," %}s{% endif %}: {{ p.mentors }}</p>
+    <p class="summary">{{ p.summary }}</p>
+    {% if p.highlights %}<ul>{% for h in p.highlights %}<li>{{ h }}</li>{% endfor %}</ul>{% endif %}
+    {% if p.links %}<div class="links">{% for l in p.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% endfor %}</div>{% endif %}
+  </div>
+  {% endfor %}
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  {% for pub in site.data.publications %}
+  <div class="pub">
+    <span class="badge">{{ pub.tag }}</span>
+    <div>
+      <p class="entry-title">{{ pub.title }}</p>
+      <p class="authors">{{ pub.authors }}</p>
+      <p class="meta"><span class="venue">{{ pub.venue }}</span>{% if pub.note %} &middot; {{ pub.note }}{% endif %}</p>
+      <p class="summary">{{ pub.summary }}</p>
+      {% if pub.links %}<div class="links">{% for l in pub.links %}<a href="{{ l.url }}">{{ l.name }}</a>{% endfor %}</div>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="experience">
+  <h2>Industry Research Experience</h2>
+  {% for e in site.data.experience %}
+  <div class="entry">
+    <div class="entry-head">
+      <p class="entry-title">{{ e.org }} &middot; <span style="font-weight:500">{{ e.role }}</span></p>
+      <span class="dates">{{ e.dates }}</span>
+    </div>
+    <p class="meta"><em>{{ e.title }}</em>{% if e.note %} <span class="badge">{{ e.note }}</span>{% endif %} &middot; Mentor{% if e.mentors contains "," %}s{% endif %}: {{ e.mentors }}</p>
+    <p class="summary">{{ e.summary }}</p>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="rows">
+    <li><span><strong>PhD, Computer Science</strong>, UCLA <span class="meta">(expected Spring 2027)</span></span><span class="dates">2022 – 2027</span></li>
+    <li><span><strong>MS, Computer Science</strong>, UCLA</span><span class="dates">2021 – 2022</span></li>
+    <li><span><strong>B.Tech (Honors), Computer Science &amp; Engineering</strong>, IIT Kharagpur</span><span class="dates">2017 – 2021</span></li>
+  </ul>
+</section>
+
+<section id="awards">
+  <h2>Honors &amp; Awards</h2>
+  <ul>
+    <li>UCLA Division of Graduate Education Fellowship for excellence in research</li>
+    <li>DAAD-WISE Fellowship (2020) for a research internship in Germany</li>
+    <li>LER Fellowship, IIT Kharagpur, for the 2nd-highest incoming rank (All India Rank 178, JEE Advanced)</li>
+  </ul>
+</section>

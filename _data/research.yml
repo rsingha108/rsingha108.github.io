@@ -1,0 +1,26 @@
+# Ongoing research projects (published work lives in publications.yml).
+- title: "Incremental Batfish: Faster Simulation of Network Configuration Changes"
+  dates: "Jul 2026 – present"
+  status: "To be submitted to SIGCOMM'27"
+  mentors: "Todd Millstein, George Varghese, Dan Halperin (Amazon)"
+  summary: "Extends Batfish to recompute only what a configuration change affects instead of re-simulating the whole network. Covers BGP policy edits, link failures and recoveries, and device additions and removals, with incremental OSPF repair, prefix-level forwarding-table updates, and reuse of BGP session checks."
+  highlights:
+    - "16–19× faster on policy edits and 3.8–5.1× on link changes on a 1,001-router Internet2-based benchmark, with output identical to Batfish"
+    - "Up to 7–25× on policy edits across 276 real ISP topologies (Internet Topology Zoo); speedups grow with network size"
+
+- title: "CornerCase: LLM-Driven Extremal Testing of Network Protocols"
+  dates: "Jul 2025 – present"
+  status: "To be submitted to SIGCOMM'27"
+  mentors: "Todd Millstein, George Varghese, Soheil Abbasloo"
+  summary: "An LLM pipeline that reads RFCs, extracts validity constraints, and generates boundary-focused (\"extremal\") test suites for DNS, BGP, SMTP, HTTP, QUIC, and shortest-path libraries. Differential testing across implementations has revealed numerous semantic inconsistencies and previously unknown bugs."
+  links:
+    - { name: "arXiv", url: "https://arxiv.org/abs/2606.29124" }
+
+- title: "AutoDesign: LLM-Driven Design Automation for Verifiable Problems"
+  dates: "Jun 2026 – present"
+  status: "To be submitted"
+  mentors: "Soheil Abbasloo"
+  summary: "A multi-agent LLM system (Analyst, Architect, Implementer, Diagnostician) that, given only a problem and an automatically checkable success criterion, designs a solution pipeline, implements and runs it, grades the result, and repairs its own design until the criterion is met."
+  highlights:
+    - "Met the accuracy goal on a congestion-control performance-mapping task (Mahak) within four self-correcting iterations, by a different route than the original authors"
+    - "The same loop, unchanged, designed a KLEE-based DNS test generator for Eywa: 1,554 harness-valid CNAME tests that structurally match the triggers of 5 of 6 known bugs"

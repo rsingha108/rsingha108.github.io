@@ -1,3 +1,16 @@
-theme: jekyll-theme-slate
 title: Rathin Singha
-description: Ph.D. Student, UCLA CS
+description: PhD candidate in Computer Science at UCLA working on network verification, testing, and LLM-driven tooling for networked systems.
+role: PhD Candidate, Computer Science
+affiliation: University of California, Los Angeles
+email: rsingha@cs.ucla.edu
+github_username: rsingha108
+cv: /assets/Rathin_Singha_CV.pdf
+url: https://rsingha108.github.io
+lang: en-US
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - images/abc.txt
+  - README.md
